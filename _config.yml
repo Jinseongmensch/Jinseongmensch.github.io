@@ -17,9 +17,9 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Jinseongmensch"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Kim Jin Seong"
+title_separator          : "|"
+subtitle                 : "멈추지 않으면 얼마나 천천히 가는지는 문제되지 않는다."
+name                     : "Kim JinSeong"
 description              : "데이터 분석을 공부하고 있습니다."
 url                      : "https://jinseongmensch.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -27,12 +27,12 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "jinseongmensch"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -107,7 +107,7 @@ author:
   name             : "KimJinSeong"
   avatar           : "https://github.com/jinseongmensch/jinseongmensch.github.io/blob/master/_images/KakaoTalk_20230716_132018312.jpg?raw=true" #"/assets/images/bio-photo.jpg"
   bio              : "Data analyst, junior"
-  location         : "Seoul"
+  location         : "South Korea"
   email            : "bigdatakjs@gmail.com"
   links:
     - label: "Email"
@@ -287,6 +287,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
+      show_date: true
+
+date_format: "%Y-%m-%d"
