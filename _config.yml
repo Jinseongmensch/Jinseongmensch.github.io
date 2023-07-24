@@ -108,7 +108,6 @@ author:
   avatar           : "https://github.com/jinseongmensch/jinseongmensch.github.io/blob/master/_images/KakaoTalk_20230716_132018312.jpg?raw=true" #"/assets/images/bio-photo.jpg"
   bio              : "Data analyst, junior"
   location         : "South Korea"
-  email            : "bigdatakjs@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
