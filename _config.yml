@@ -125,7 +125,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jinseongmensch"
     - label: "HtmlResume"
-      #icon: "fab fa-fw fa-instagram"
+      icon: "fas fa-fw fa-link"
       url: "https://bigdatakjs.dothome.co.kr"
 
 # Site Footer
